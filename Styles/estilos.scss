@@ -1,0 +1,98 @@
+// Colores
+$colorAmarillo: RGB(237, 205, 31);
+$colorAzul: RGB(30, 45, 59);
+$colorAzulGris: RGB(61, 89, 117);
+
+// body {
+//     background-color: $colorAmarillo;
+//     .img {
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: center;
+//         align-items: center;
+//         margin: 20% auto;
+//         width: 20%;
+//         img {
+//             width: 100%;
+//         }
+//     }
+// }
+
+body {
+    background-color: $colorAzul;
+    color: white;
+}
+
+h1, h2 {
+    color: $colorAmarillo;
+}
+
+#btnsCambioIdioma {
+    text-align: end;
+}
+
+.btnCambioIdioma {
+    background: none;
+    border: none;
+    color: $colorAmarillo;
+    text-decoration: underline;
+}
+
+#aboutUsIng { 
+    display: none;
+}
+
+#procesoDeGestionIng {
+    display: none;
+}
+
+.listaOlProcesoGestion {
+    list-style-position: inside;
+}
+
+.navbar-toggler {
+    i {
+        color: $colorAzulGris;
+    }
+}
+
+.navbar {
+    background-color: $colorAmarillo;
+    // height: 130px;
+}
+
+.nav-link {
+    margin: 50px;
+}
+
+.nav-link {
+    color: $colorAzulGris;
+}
+
+.dropdown-menu {
+    background-color: $colorAmarillo;
+}
+
+.table {
+    color: white;
+}
+
+.logo {
+    width: 150px;
+}
+
+footer {
+    text-align: center;
+    i {
+        font-size: 40px;
+        margin: 10px;
+    }
+}
+
+.imgCarousel {
+    width: 50%;
+    min-width: 900px;
+    img {
+        max-height: 700px;
+    }
+}

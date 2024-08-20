@@ -1,0 +1,77 @@
+body {
+  background-color: RGB(30, 45, 59);
+  color: white;
+}
+
+h1, h2 {
+  color: RGB(237, 205, 31);
+}
+
+#btnsCambioIdioma {
+  text-align: end;
+}
+
+.btnCambioIdioma {
+  background: none;
+  border: none;
+  color: RGB(237, 205, 31);
+  text-decoration: underline;
+}
+
+#aboutUsIng {
+  display: none;
+}
+
+#procesoDeGestionIng {
+  display: none;
+}
+
+.listaOlProcesoGestion {
+  list-style-position: inside;
+}
+
+.navbar-toggler i {
+  color: RGB(61, 89, 117);
+}
+
+.navbar {
+  background-color: RGB(237, 205, 31);
+}
+
+.nav-link {
+  margin: 50px;
+}
+
+.nav-link {
+  color: RGB(61, 89, 117);
+}
+
+.dropdown-menu {
+  background-color: RGB(237, 205, 31);
+}
+
+.table {
+  color: white;
+}
+
+.logo {
+  width: 150px;
+}
+
+footer {
+  text-align: center;
+}
+footer i {
+  font-size: 40px;
+  margin: 10px;
+}
+
+.imgCarousel {
+  width: 50%;
+  min-width: 900px;
+}
+.imgCarousel img {
+  max-height: 700px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
