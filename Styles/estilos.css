@@ -3,12 +3,26 @@ body {
   color: white;
 }
 
-h1, h2 {
+h1, h2, h4 {
   color: RGB(237, 205, 31);
+}
+
+#wheelLoader img {
+  width: 50%;
+}
+#wheelLoader .imgs {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
 }
 
 #btnsCambioIdioma {
   text-align: end;
+}
+
+.cuadro {
+  border-top: 2px solid RGB(237, 205, 31);
+  padding-top: 30px;
 }
 
 .btnCambioIdioma {

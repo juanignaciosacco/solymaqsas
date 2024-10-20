@@ -23,12 +23,28 @@ body {
     color: white;
 }
 
-h1, h2 {
+h1, h2, h4 {
     color: $colorAmarillo;
+}
+
+#wheelLoader {
+    img {
+        width: 50%;
+    }
+    .imgs {
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+    }
 }
 
 #btnsCambioIdioma {
     text-align: end;
+}
+
+.cuadro {
+    border-top: 2px solid $colorAmarillo;
+    padding-top: 30px;
 }
 
 .btnCambioIdioma {

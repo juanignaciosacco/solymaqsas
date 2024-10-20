@@ -26,8 +26,7 @@
     <head>
       <nav class="navbar navbar-expand-sm">
         <div class="container-fluid">
-          <img class="logo" src="./Assets/Logo/excavator - 8.png" />
-          <a class="navbar-brand" href="./index.html"></a>
+          <a class="navbar-brand" href="./index.html"><img class="logo" src="./Assets/Logo/excavator - 8.png" /></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -42,41 +41,41 @@
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">Acerca de </a>
+                <a class="nav-link" href="./sobreNosotros.html">Acerca de </a>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Unidades de negocio
-                </a>
-                <ul
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <li><a class="dropdown-item" href="#">Izaje</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Movimiento de tierra</a>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdownMenuLink"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Productos
+                    </a>
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="navbarDropdownMenuLink"
+                    >
+                      <li><a class="dropdown-item" href="/excavadoras.html">Excavadoras</a></li>
+                      <li><a class="dropdown-item" href="./palasCargadoras.html">Palas cargadoras</a></li>
+                      <li><a class="dropdown-item" href="./elevadoresTodoTerreno.html">Elevadores todo terreno</a></li>
+                      <li><a class="dropdown-item" href="./motoniveladoras.html">Motoniveladoras</a></li>
+                      <li><a class="dropdown-item" href="./compactadoresDeSuelo.html">Compactadores de suelos</a></li>
+                      <li><a class="dropdown-item" href="./bulldozer.html">Bulldozer</a></li>
+                      <li><a class="dropdown-item" href="#">Auto Hormigonera</a></li>
+                      <li><a class="dropdown-item" href="./martillosHidraulicos.html">Martillos Hidráulicos</a></li>
+                      <li><a class="dropdown-item" href="./productosCarreterasAsfalto.html">Productos para construcción de carreteras, asfalto / concreto</a></li>
+                      <!-- <li><a class="dropdown-item" href="#">Elevación</a></li> -->
+                    <!-- <li><a class="dropdown-item" href="./dozerCrawler.html">Dozer Crawler</a></li>
+                      <li><a class="dropdown-item" href="./wheelLoader.html">Wheel loader</a></li> -->
+                    </ul>
                   </li>
-                  <li><a class="dropdown-item" href="#">Minería</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Pavimentación</a>
-                  </li>
-                  <li><a class="dropdown-item" href="#">Perforación</a></li>
-                  <li><a class="dropdown-item" href="#">Eléctricos</a></li>
-                  <li><a class="dropdown-item" href="#">Rescate</a></li>
-                  <li><a class="dropdown-item" href="#">Transporte</a></li>
-                  <li><a class="dropdown-item" href="#">Usadas</a></li>
-                  <li><a class="dropdown-item" href="#">Elevación</a></li>
-                  <li><a class="dropdown-item" href="./martillosHidraulicos.html">Martillos Hidráulicos</a></li>
                 </ul>
-              </li>
-
+              </div>
               <li class="nav-item">
                 <a class="nav-link" href="#">Socios estratégicos</a>
               </li>
@@ -194,6 +193,12 @@
         </ol>
       </div>
     </main>
+
+    <footer class="mt-5">
+      <hr />
+      <i class="fa-brands fa-whatsapp"></i>
+      <i class="fa-solid fa-phone"></i>
+    </footer>
 
     <script src="./index.js"></script>
     <!-- Bootstrap -->
