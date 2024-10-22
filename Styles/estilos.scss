@@ -140,6 +140,17 @@ footer {
     }
 }
 
+.sociosEstrategicos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    img {
+        width: 20%;
+    }
+}
+
 .imgCarousel {
     width: 50%;
     min-width: 900px;
