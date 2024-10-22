@@ -22,73 +22,64 @@
     <!-- Estilos -->
     <link rel="stylesheet" href="Styles/estilos.css" />
   </head>
+
   <body>
-    <head>
-      <nav class="navbar navbar-expand-sm">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html"><img class="logo" src="./Assets/Logo/excavator - 8.png" /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#collapsibleNavbar"
-          >
-            <i class="fa-solid fa-bars"></i>
-          </button>
-          <div
-            class="justify-content-center collapse navbar-collapse"
-            id="collapsibleNavbar"
-          >
+  <header>
+    <nav class="navbar navbar-expand-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img class="logo" src="./Assets/Logo/excavator - 8.png" alt="Logo" /></a>
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavbar"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="justify-content-center collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./sobreNosotros.html">Acerca de </a>
+            </li>
+            <!-- <div class="collapse navbar-collapse" id="navbarNavDropdown"> -->
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="./sobreNosotros.html">Acerca de </a>
-              </li>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#"
-                      id="navbarDropdownMenuLink"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Productos
-                    </a>
-                    <ul
-                      class="dropdown-menu"
-                      aria-labelledby="navbarDropdownMenuLink"
-                    >
-                      <li><a class="dropdown-item" href="/excavadoras.html">Excavadoras</a></li>
-                      <li><a class="dropdown-item" href="./palasCargadoras.html">Palas cargadoras</a></li>
-                      <li><a class="dropdown-item" href="./elevadoresTodoTerreno.html">Elevadores todo terreno</a></li>
-                      <li><a class="dropdown-item" href="./motoniveladoras.html">Motoniveladoras</a></li>
-                      <li><a class="dropdown-item" href="./compactadoresDeSuelo.html">Compactadores de suelos</a></li>
-                      <li><a class="dropdown-item" href="./bulldozer.html">Bulldozer</a></li>
-                      <li><a class="dropdown-item" href="#">Auto Hormigonera</a></li>
-                      <li><a class="dropdown-item" href="./martillosHidraulicos.html">Martillos Hidráulicos</a></li>
-                      <li><a class="dropdown-item" href="./productosCarreterasAsfalto.html">Productos para construcción de carreteras, asfalto / concreto</a></li>
-                      <!-- <li><a class="dropdown-item" href="#">Elevación</a></li> -->
-                    <!-- <li><a class="dropdown-item" href="./dozerCrawler.html">Dozer Crawler</a></li>
-                      <li><a class="dropdown-item" href="./wheelLoader.html">Wheel loader</a></li> -->
-                    </ul>
-                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="./excavadoras.html">Excavadoras</a></li>
+                  <li><a class="dropdown-item" href="./palasCargadoras.html">Palas cargadoras</a></li>
+                  <li><a class="dropdown-item" href="./elevadoresTodoTerreno.html">Elevadores todo terreno</a></li>
+                  <li><a class="dropdown-item" href="./motoniveladoras.html">Motoniveladoras</a></li>
+                  <li><a class="dropdown-item" href="./compactadoresDeSuelo.html">Compactadores de suelos</a></li>
+                  <li><a class="dropdown-item" href="./bulldozer.html">Bulldozer</a></li>
+                  <li><a class="dropdown-item" href="#">Auto Hormigonera</a></li>
+                  <li><a class="dropdown-item" href="./martillosHidraulicos.html">Martillos Hidráulicos</a></li>
+                  <li><a class="dropdown-item" href="./productosCarreterasAsfalto.html">Productos para construcción de carreteras, asfalto / concreto</a></li>
+                  <!-- <li><a class="dropdown-item" href="#">Elevación</a></li> -->
+                  <!-- <li><a class="dropdown-item" href="./dozerCrawler.html">Dozer Crawler</a></li>
+                  <li><a class="dropdown-item" href="./wheelLoader.html">Wheel loader</a></li> -->
                 </ul>
-              </div>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Socios estratégicos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">Contacto</a>
+                <a class="nav-link" href="./unidadesDeNegocio.html">Unidades de negocio</a>
               </li>
             </ul>
-          </div>
+            <!-- </div> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Socios estratégicos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </head>
+      </div>
+    </nav>
+  </header>
 
-    <main>
+  <main>
       <div id="btnsCambioIdioma">
         <button class="btnCambioIdioma" id="btnInglesAboutUs">Eng</button>
         <button class="btnCambioIdioma" id="btnEspAboutUs">Esp</button>
