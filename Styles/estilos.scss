@@ -113,7 +113,7 @@ h1, h2, h4 {
 }
 
 .nav-link {
-    margin: 50px;
+    margin: 10px;
 }
 
 .nav-link {
@@ -130,6 +130,24 @@ h1, h2, h4 {
 
 .logo {
     width: 150px;
+}
+
+.carousel-item {
+    img {
+        max-height: 600px;
+
+    }
+}
+
+.carouselImgsInicio {
+    min-height: 600px;
+}
+
+.especial {
+    img {
+        margin: 0 auto;
+        max-width: 500px;
+    }
 }
 
 footer {
