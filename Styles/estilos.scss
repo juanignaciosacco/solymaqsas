@@ -55,10 +55,11 @@ h1, h2, h4 {
 .imgsInicio {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    column-gap: 10px;
     img {
-        width: 45%;
+        width: 85%;
     }
 }
 
@@ -174,5 +175,23 @@ footer {
     min-width: 900px;
     img {
         max-height: 700px;
+    }
+}
+
+@media only screen and (max-width: 972px ) {
+    .carouselImgsInicio {
+        min-height: 450px;
+    }
+
+    .productosInicio {
+        div {
+            width: 90%;
+        }
+    }
+
+    .imgsInicio {
+        img {
+            width: 55%;
+        }
     }
 }
